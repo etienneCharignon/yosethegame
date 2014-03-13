@@ -4,7 +4,7 @@ configure do
 end
 
 get '/' do
-   "Hello Yose"
+   'Hello Yose. The source code of that application can be found here : <a href="https://github.com/etienneCharignon/yosethegame">github.com/etienneCharignon/yosethegame</a>'
 end
 
 get '/ping' do
