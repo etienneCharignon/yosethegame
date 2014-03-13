@@ -5,5 +5,6 @@ get '/' do
 end
 
 get '/ping' do
-   '{"content-type":"application/json","body":{"alive":true}}'
+   content_type 'application/json'
+   '{"alive":true}'
 end
