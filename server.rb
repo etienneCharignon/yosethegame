@@ -5,5 +5,5 @@ get '/' do
 end
 
 get '/ping' do
-   "Bienvenu dans mon ascenseur."
+   '{"content-type":"application/json","body":{"alive":true}}'
 end
